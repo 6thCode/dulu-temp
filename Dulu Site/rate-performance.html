@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DULU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="css/responsive.css" rel="stylesheet">
+              <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
+    <!-- </nav> -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+          
+          <div class="col-md-10">
+            <div class="box user">
+                <h4 style="color:#FFF;"><strong>Hello, Please tell us 
+                  what you like about your experience</strong></h4>
+              </div>
+              <div class="board-rate text-center"><br>
+                <div class="slideshow-container">
+                <div class="mySlides">
+                  <p><span style="color: #FFF">1 of 5</span></p><br>
+                  <h5><span style="color: #FFF">Effectiveness</span></h5>
+                </div>
+                <div class="mySlides">
+                  <p><span style="color: #FFF">2 of 5</span></p><br>
+                  <h5><span style="color: #FFF">Serivice Response Time</span></h5>
+                </div>
+                <div class="mySlides">
+                  <p><span style="color: #FFF">3 of 5</span></p><br>
+                  <h5><span style="color: #FFF">Politness</span></h5>
+                </div>
+                <div class="mySlides">
+                  <p><span style="color: #FFF">4 of 5</span></p><br>
+                  <h5><span style="color: #FFF">Environment Look & Feel</span></h5>
+                </div>
+                <div class="mySlides">
+                  <p><span style="color: #FFF">5 of 5</span></p><br>
+                  <h5><span style="color: #FFF">Employee Appearance</span></h5>
+                </div>
+              </div>
+                <div class="w3-panel rating-card">
+                  <table class="icons" align="center" width="20%">
+                    <td>
+                      <a href="#"><i class="fa fa-check" style="font-size:30px; color: green"></i></a><br><p style="font-size: 13px">Yes</p>
+                    </td>
+                    <td>
+                      <a href="#"><i class="fa fa-remove" style="font-size:30px; color: red"></i></a><br><p style="font-size: 13px">No</p>  
+                    </td>
+                    <td>
+                      <a href="#"><i class="fa fa-question" style="font-size:30px"> </i></a><br><p style="font-size: 13px">Not Sure</p> 
+                    </td>
+                  </table>
+                </div>
+              </div>
+              <div class="z-dot">
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                </div>
+              </div>
+              <div class="chevron-buttons">
+                <div class="bulb-h5">
+                  <div class="text">
+                    <ul style="list-style: none;">
+                      <li> <a class="prev" style="color: #828282" onclick="plusSlides(-1)">&#10094; <span>BACK</span></a></li>
+                      <li><a class="next" style="color: #828282" onclick="plusSlides(1)">SKIP &#10095;</a></li>
+                    <!-- <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-left" style="color: #828282">BACK</i></a>
+                    <a class="next" style="color: #828282" onclick="plusSlides(1)">SKIP<i class="fa fa-chevron-right"></i></a>   -->
+                    </ul> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="row">
+                <div class="col-md-6 col-sm-6">
+
+                  <!-- BUTTONS BEGINS HERE -->
+                   <div class="like-button">
+                    <a href="#" onclick="changeImage('like')">
+                      <img class="image-like-up" src="images/submit.png" alt="voteup">
+                    </a>
+                  </div>
+                  <div class="dislike-button">
+                    <a href="#" onclick="changeImage('dislike')">
+                      <img class="image-like-down" src="images/employees-menu.png" alt="votedown">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- app js -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

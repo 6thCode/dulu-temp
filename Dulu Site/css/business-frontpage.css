@@ -1,0 +1,1252 @@
+
+body {
+    padding: 12px;
+    background: #E0E0E0;
+    position: relative;
+    font-family: 'RobotoDraft', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #E0E0E0;
+  }
+}
+
+/*EVERYTHING BEGINS HERE*/
+
+.box{+++
+  margin-bottom: 10%;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 0;
+}
+ 
+.advert{
+  background: #FFF;
+  width: 112%;
+  height: 414px;
+  float: right;
+  margin-right: 0%;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+.advert video{
+  width: 70%;
+  margin-top: 0%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ad {
+  background: #FFF;
+  width: 112%;
+  height: 100px;
+  float: right;
+  margin-right: 0%;
+  margin-top: 10px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.ad h4 {
+  text-align: center;
+  height: 20px;
+  margin-top: 2.5%;
+}
+  /*BUTTONS BEGINS HERE*/
+
+.image-like-up{
+  height: 50%;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.image-like-down{
+  height: 50%;
+  width: 250px;
+}
+.image-thank-you{
+  height: 50%;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.image-next{
+  height: 50%;
+  width: 250px;
+}
+.image-employees-menu{
+  height: 50%;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.image-employees-skip{
+  height: 50%;
+  width: 250px;
+}
+
+  /*BUTTONS ENDS HERE*/
+
+.bulb {
+  background: #FFF;
+  width: 112%;
+  height: 60px;
+  float: right;
+  margin-right: 0%;
+  margin-top: 10px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.bulb img {
+  padding-left: auto;
+  padding-right: auto;
+  float: left;
+  margin-left: 22%;
+}
+
+.bulb h5 {
+  c    olor: #828282;
+  margin-top: 10px;
+}
+
+.user {
+  background: #5B9BD5;
+  width: 112%;
+  height: 108px;
+  border-radius: 3px;
+  text-align: center;
+  float: right;
+  margin-right: 0%;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+.user-rate {
+  background: #FFF;
+  width: 112%;
+  height: 108px;
+  border-radius: 3px;
+  text-align: center;
+  float: right;
+  margin-right: 0%;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.user h4{
+  margin-top: 2.5%;
+}
+
+.board {
+  background: #FFF;
+  width: 112%;
+  height: 500px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+/*.table-icons {
+ float: right;
+ margin-right: 0px;
+ margin-top: 35px;
+}*/
+.user-rate {
+  background: #FFF;
+  width: 112%;
+  height: 500px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+.chevron-buttons {
+  background: #FFF;
+  width: 112%;
+  height: 40px;
+  float: right;
+  margin-right: 0%;
+  margin-top: 10px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.z-image {
+  width: 50%;
+  cursor: pointer;
+}
+.board-rate {
+  background: #5B9BD5;
+  width: 112%;
+  height: 370px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+  /*SKIP AND BACK CHEVRON ARROWS BEGINS HERE*/
+.text {
+   position: relative;
+}
+
+.next {
+   position: absolute;
+   right: 25px;
+   top: -5px;
+}    
+
+.prev {
+   position: absolute;
+   left: 25px;
+   top: -5px;
+}
+.rating-card {
+  background-color: #FFF;
+  height: 70px;  
+  /*margin-top: 188px;*/  /*incase of gbese revert back to original and comment out the media query in responsive.css*/
+  margin-top: 43.2%;
+  border-radius: 0px 0px 3px 3px;
+} 
+.comment-board {
+  background: #FFF ;
+  width: 112%;
+  height: 100px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+
+.comment-board table{
+  width: 80%;
+  margin-top: -20px;
+}
+.make-comment {
+  background: #FFF;
+  width: 112%;
+  height: 350px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 0;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+  /*PLACEHOLDER FOR COMMENT SECTION BEGINS HERE*/
+
+*,
+:before,
+:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+form {
+  width: 320px;
+  margin: 45px auto;
+}
+form h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: #2196F3;
+}
+form h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #c6c6c6;
+}
+form hr.sep {
+  background: #2196F3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  height: 2px;
+  width: 25%;
+  margin: 0px auto 45px auto;
+}
+
+.group {
+  position: relative;
+  margin: 45px 0;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  background: none;
+  color: #828282;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 99%;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #C4C4C4;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus ~ label, input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #2196F3;
+}
+input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 317%;
+}
+
+label {
+  color: #c6c6c6;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 15px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: #2196F3;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+  left: 0%;
+}
+
+  /*PLACEHOLDER FOR COMMENT SECTION ENDS HERE*/
+
+.shopping-board {
+  background: #FFF;
+  width: 112%;
+  height: 430px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+.shopping-board table{
+  width: 100%;
+  margin-top: -60px;
+}
+.shopping-icon {
+  margin-top: 10px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+.z-dot {
+  float: left;
+  margin-left: 38%;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} 
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.tab {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.tabs li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+.tabs a {
+  background-color: #eff0f2;
+  border-bottom: 1px solid #fff;
+  color: #888;
+  font-weight: 500;
+  display: block;
+  letter-spacing: 0;
+  outline: none;
+  padding: 0 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 2px solid blue;
+}
+
+.tabs_item {
+  display: none;
+  padding: 30px 0;
+}
+.tabs_item h4 {
+  font-weight: bold;
+  color: blue;
+  font-size: 20px;
+}
+.tabs_item img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.tabs_item:first-child {
+  display: block;
+}
+
+.current a {
+  color: #fff;
+  background: blue;
+}
+
+  .cam-board {
+  background: #000;
+  width: 112%;
+  height: 430px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.rec-btns button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+
+/*.....................................*/
+    /*TABS CSS BEGINS HERE*/ 
+/*.........................................*/
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #5B9BD5;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+
+.tablink:hover {
+    background-color: #FFF;
+    color: #333;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: #333;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Products {background-color: white;}
+#Services {background-color: green;}
+
+/*.....................................*/
+    /*TABS CSS ENDS HERE*/ 
+/*.........................................*/
+
+/*.............................................................*/
+    /*APPOINTMENT SECTION BEGINS HERE*/
+/*.............................................................*/
+
+
+.make-appointment {
+  background: #FFF;
+  width: 112%;
+  height: 400px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 0;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+/*....................................................................*/
+/*.......................................................................*/
+  /*PLACEHOLDER FOR APPOINTMENT/COMMENT SECTION BEGINS HERE*/
+/*.........................................................................*/
+/*...........................................................................*/
+
+*,
+:before,
+:after {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+form {
+  width: 320px;
+  margin: 45px auto;
+}
+form h1 {
+  font-size: 3em;
+  font-weight: 300;
+  text-align: center;
+  color: #2196F3;
+}
+form h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #c6c6c6;
+}
+form hr.sep {
+  background: #2196F3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  height: 2px;
+  width: 25%;
+  margin: 0px auto 45px auto;
+}
+/*...................................................*/
+    /*APPOINTMENT PLACEHOLDER SECTION BEGINS HERE*/
+/*.....................................................*/
+
+.group-issue {
+  width: 45%;  /*newly introduced width for the data and time input textarea*/
+  position: absolute;
+  margin: 45px 0;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.group-issue input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 132%;
+}
+
+.group-name {
+  width: 45%;  /*newly introduced width for the data and time input textarea*/
+  position: absolute;
+  margin: 45px 0;
+  margin-top: 30px;
+  margin-left: 62%;
+}
+.group-name input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 132%;
+}
+
+.group-number {
+  width: 45%;  /*newly introduced width for the data and time input textarea*/
+  position: absolute;
+  margin: 45px 0;
+  margin-top: 110px;
+  margin-left: 62%;
+}
+.group-number input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 132%;
+}
+
+.group-email {
+  width: 45%;  /*newly introduced width for the data and time input textarea*/
+  position: absolute;
+  margin: 45px 0;
+  margin-top: 110px;
+  margin-left: 10px;
+}
+
+.group-email input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 132%;
+}
+
+.group-date {
+  width: 107%;  /*newly introduced width for the data and time input textarea*/
+  position: absolute;
+  margin: 45px 0;
+  margin-top: 210px;
+  margin-left: 10px;
+}
+
+.group-reason {
+  position: relative;
+  margin: 45px 0;
+  margin-top: 300px;
+  margin-left: 10px;
+}
+
+/*...................................................*/
+    /*APPOINTMENT PLACEHOLDER SECTION ENDS HERE*/
+/*.....................................................*/
+
+textarea {
+  resize: none;
+}
+
+input,
+textarea {
+  background: none;
+  color: #828282;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  /*width: 99%;*/  /*this width is the original width for the input textarea, revert incase of gbese*/
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #C4C4C4;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+input:focus ~ label, input:valid ~ label,
+textarea:focus ~ label,
+textarea:valid ~ label {
+  top: -14px;
+  font-size: 12px;
+  color: #2196F3;
+}
+input:focus ~ .bar:before,
+textarea:focus ~ .bar:before {
+  width: 317%;
+}
+
+label {
+  color: #c6c6c6;
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 15px;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+}
+
+.bar {
+  position: relative;
+  display: block;
+  width: 320px;
+}
+.bar:before {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 0px;
+  position: absolute;
+  background: #2196F3;
+  -webkit-transition: 300ms ease all;
+  transition: 300ms ease all;
+  left: 0%;
+}
+
+
+/*....................................................................*/
+/*.......................................................................*/
+  /*PLACEHOLDER FOR APPOINTMENT/COMMENT SECTION ENDS HERE*/
+/*.........................................................................*/
+/*...........................................................................*/
+
+
+.make-advert {
+  width: 112%;
+  height: 80px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 0;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+
+/*................................................................*/
+    /*APPOINTMENT SECTION ENDS HERE*/
+/*....................................................................*/
+     /*SKIP AND BACK CHEVRON ARROWS ENDS HERE*/
+/*..................................................................*/
+
+    /*GET CONTACT SECTION BEGINS HERE*/
+
+.get-name {
+  background: #FFF ;
+  width: 112%;
+  height: 80px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+  }
+
+.get-number {
+  background: #FFF ;
+  width: 112%;
+  height: 80px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+  }
+
+  .contact-board {
+  background: #FFF ;
+  width: 112%;
+  height: 300px;
+  float: right;
+  margin-right: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px #C4C4C4;
+}
+
+.contact-board table{
+  width: 100%;
+  margin-top: -5px;
+}
+
+.comment-icon1 {
+  margin-top: 10px;
+}
+
+  /*GET CONTACT SECTION ENDS HERE*/
+
+
+ /*EVERYTHING ENDS HERE*/
+
+
+/*..............................................................*/
+ /*RESPONSIVENESS FOR ALL DEVICES BEGINS HERE*/
+/*...............................................................*/
+
+
+@media (min-width: 320px) {
+  .navbar-brand {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
+  .advert video {
+    width: 100%;
+    height: 100%;
+  }
+  .ad h4{
+    font-size: 20px;
+  }
+  .bulb img {
+    float: left;
+    margin-left: 30%;
+  }
+  .bulb h5 {
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 320px) {
+  .advert {
+    width: 110%;
+    height: 220px;
+    float: left;
+    margin-left: -5%;
+  }
+  .advert video {
+    width: 100%;
+    height: 100%
+  }
+
+  .z-image {
+    width: 75%;
+  }
+ 
+  .image-like-up{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: right;
+    margin-right: 10px;
+  }
+
+  .image-like-down{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: left;
+    margin-left: 10px;
+  }
+
+  .ad {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .ad h4 {
+    font-size: 15px;
+  }
+  .bulb {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .bulb img {
+    float: left;
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  .bulb h5 {
+    font-size: 10px;
+  }
+  .user {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .user h4 {
+    font-size: 10px;
+    margin: auto;
+  }
+  .icons {
+    width: 110%;
+    height: 360px;
+    float: left;
+    margin-left: -5%;
+  }
+  .board {
+    width: 110%;
+    height: 300px;
+    float: left;
+    margin-left: -5%;
+  }
+  .user-rate {
+    width: 110%;
+    height: 300px;
+    float: left;
+    margin-left: -5%;
+  }
+  .z-image {
+    width: 65%;
+  }
+  .chevron-buttons {
+    width: 110%;
+    height: 40px;
+    float: left;
+    margin-left: -5%
+  }
+  .board-rate {
+    width: 110%;
+    height: 216px;
+    float: left;
+    margin-left: -5%;
+  }
+  .rating-card {
+    height: 59px;
+    margin-top: 46px;
+  }
+  .comment-board {
+    width: 110%;
+    height: 70px;
+    float: left;
+    margin-left: -5%;
+  }
+  .comment-icon {
+    margin-top: 8%;
+    width: 50%;
+  }
+  .comment-board p{
+    font-size: 10px;
+  }
+  .make-comment {
+    width: 110%;
+    height: 210px;
+    float: left;
+    margin-left: -5%;
+  }
+  input,
+  textarea {
+  width: 97%;
+  }
+  input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 85%;
+  }
+  label {
+    font-size: 14px;
+  }
+  .shopping-board {
+    width: 110%;
+    height: 290px;
+    float: left;
+    margin-left: -5%;
+  }
+  .shopping-board table {
+    width: 100%;
+
+  }
+  .shopping-icon{
+    width: 70%;
+  }
+  .shopping-board p{
+    font-size: 10px;
+  }
+  .cam-board {
+    width: 110%;
+    height: 290px;
+    float: left;
+    margin-left: -5%;
+  }
+  .comment-board p{
+    font-size: 10px;
+  }
+  .rating-card table{
+    float: right;
+    margin-right: 20%;
+    width: 60%;
+    font-size: 10px;
+    margin-top: -50%;
+  }
+  .make-appointment {
+    width: 110%;
+    height: 230px;
+    float: left;
+    margin-left: -5%;
+  }
+
+  /*.....................................*/
+      /*APPOINTMENT SECTION BEGINS HERE*/
+  /*.......................................*/
+  .group-date {
+    margin-top: 120px;
+  }
+  .group-date input,textarea {
+    width: 86%;
+  }
+  .group-reason {
+  margin-top: 170px;
+  }
+  .banner-mobile {
+    height: 50px;
+  }
+  .group-issue {
+    margin-top: 20px;
+  }
+  .group-email {
+    margin-top: 70px;
+  }
+  .group-name {
+    margin-top: 20px;
+    margin-left: 52%;
+  }
+  .group-number {
+    margin-top: 70px;
+    margin-left: 52%;
+  }
+  input, textarea {
+    font-size: 10px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  .group-issue input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 40%;
+  }
+  .group-name input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 40%;
+  }
+  .group-email input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 40%;
+  }
+    .group-date input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 85%;
+  }
+    .group-number input:focus ~ .bar:before,
+  textarea:focus ~ .bar:before {
+  width: 40%;
+  }
+
+  /*BANNER SECTION BEGINS HERE*/
+
+  .make-advert {
+    width: 110%;
+    height: 50px;
+    float: left;
+    margin-left: -5%;
+    border-radius: 3px;
+  }
+  .advert-mobile {
+    height: 50px;
+      border-radius: 3px;
+  }
+
+  /*BANNER SECTION BEGINS HERE*/
+  .contact-board {
+    width: 110%;
+    height: 150px;
+    float: left;
+    margin-left: -5%;
+  }
+  .contact-board table {
+    padding: auto;
+    margin-top: -7px;
+  }
+  .get-name {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .get-number {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .comment-icon1 {
+    width: 50%;
+  }
+}
+
+
+
+
+
+/*@media only screen and (min-device-width: 1024px) and (orientation:portrait){
+
+  .rating-card {
+    margin-top: 21.8%;
+  }
+}*/
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */
+  .rating-card table{
+    float: right;
+    margin-right: 20%;
+    width: 60%;
+    font-size: 10px;  
+    margin-top: 2%;
+  }
+}
+
+/*............................................................................*/
+    /*RESPONSIVENESS FOR GOOD, BAD, NOT SURE ICONS BEGINS HERE*/
+/*..............................................................................*/
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 736px) and (orientation:portrait) {
+  .rating-card table {
+    margin-top: -36% !important;
+  }
+  .comment-icon {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .rating-card table {
+    margin-top: 2% !important;
+  }
+}
+
+/*................................................................................*/
+    /*RESPONSIVENESS FOR THE GOOD, BAD, NOT SURE ICONS ENDS HERE*/
+/*.................................................................................*/
+
+ /*RESPONSIVENESS FOR ALL DEVICES ENDS HERE*/
+
+
+
+........................................................................................................................................................
+
+
+
+/*......................................................................................................*/
+              /*ALL LANDSCAPE RESPONSIVE QUERIES BEGINS HERE*/
+/*........................................................................................................*/
+
+
+      /*.......................................*/
+      /*MOBILE FRAMES AND IPAD LANDSCAPE BEGINS HERE*/
+      /*..........................................*/
+
+      @media only screen and (min-device-width: 500px) and (orientation:landscape) {
+        /* For landscape layouts only */
+        .rating-card table{ 
+          margin-top: 0%;
+        }
+        .z-image {
+          width: 50%;
+        }
+        .comment-icon {
+          width: 25%;
+        }
+      }
+
+      /*.......................................*/
+      /*MOBILE FRAMES AND IPAD LANDSCAPE BEGINS HERE*/
+      /*..........................................*/
+
+
+
+ @media only screen and (min-device-width: 568px) and (orientation:landscape) {
+  /*For landscape layouts only*/
+  .z-image{
+    width: 50%;
+  }
+  .board-rate table{
+    margin-top: 10%;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+  .rating-card table{
+    margin-top: -48%;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 360px) {
+  .rating-card table{
+    margin-top: -42%;
+  }
+}
+
+
+@media screen and (max-width: 823px) and (min-width: 375px) {
+  .rating-card table{
+    float: right;
+    margin-right: 20%;
+    width: 60%;
+    font-size: 10px;
+    margin-top: -40%;
+  }
+  .comment-icon {
+    width: 35%;
+  }
+}
+
+

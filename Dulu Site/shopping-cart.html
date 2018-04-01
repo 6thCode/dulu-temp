@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DULU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
+    <!-- </nav> -->
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+          <div class="col-md-10">
+            <div class="box user">
+              <h4 style="color:#FFF;"><strong>Select a comment you would like to make</strong></h4>
+            </div>
+            <div class="shopping-board text-center">
+              <button class="tablink" onclick="openPage('Products', this, 'white')" ><strong>Products</strong></button>
+              <button class="tablink" onclick="openPage('Services', this, 'green')" id="defaultOpen"><strong>Services</strong></button>
+              <div id="Products" class="tabcontent">
+                <table align="center">
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Pro Cat 1</p>
+                  </td>
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Pro Cat 1</p>
+                  </td>
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Pro Cat 1</p>
+                  </td>
+                </table>
+              </div>
+
+              <div id="Services" class="tabcontent">
+                <table align="center">
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Services Cat 1</p>
+                  </td>
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Services Cat 1</p>
+                  </td>
+                  <td>
+                    <a href="#"><img class="shopping-icon" src="images/cart.png" alt="shopping-cart" width="30%"></a>
+                    <p>Services Cat 1</p>
+                  </td>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+
+                <!-- BUTTONS BEGINS HERE -->
+                <div class="like-button">
+                  <a href="#" onclick="changeImage('menu')">
+                    <img class="image-like-up" src="images/employees-menu.png" alt="voteup">
+                  </a>
+                </div>
+                <div class="dislike-button">
+                  <a href="#" onclick="changeImage('skip')">
+                    <img class="image-like-down" src="images/employees-skip.png" alt="votedown">
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- app js -->
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+@media (min-width: 320px) {
+  .navbar-brand {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .advert video {
+    width: 100%;
+    height: 100%;
+  }
+  .ad h4{
+    font-size: 20px;
+  }
+  .bulb img {
+    float: left;
+    margin-left: 30%;
+  }
+  .bulb h5 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 699px) and (min-width: 320px) {
+  .advert {
+    width: 110%;
+    height: 220px;
+    float: left;
+    margin-left: -5%;
+  }
+  .advert video {
+    width: 100%;
+    height: 100%
+  }
+    /*BUTTONS BEGINS HERE*/
+  .image-like-up{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: right;
+  }
+
+  .image-like-down{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: left;
+  }
+  .image-thank-you{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: right;
+  }
+
+  .image-next{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: left;
+  }
+   .image-employees-menu{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: right;
+  }
+
+  .image-employees-skip{
+    margin-top: 20px;
+    height: 30%;
+    width: 110px;
+    float: left;
+  }
+    /*BUTTONS ENDS HERE*/
+  .ad {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .ad h4 {
+    font-size: 15px;
+  }
+  .bulb {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .bulb img {
+    float: left; 
+    margin-left: 10px;
+    margin-top: -5px;
+  }
+  .bulb h5 {
+    font-size: 10px;
+  }
+  .user {
+    width: 110%;
+    height: 60px;
+    float: left;
+    margin-left: -5%;
+  }
+  .user h4 {
+    font-size: 10px;
+  }
+  .board {
+    width: 110%;
+    height: 290px;
+    float: left;
+    margin-left: -5%;
+  }
+  .icon {
+    float: right;
+    margin-right: 10px;
+  }
+  .icon p{
+    font-size: 10px;
+  }
+  .rate-employees {
+    width: 76px;
+    height: 76px;
+  }
+  .rate-graph {
+    width: 76px;
+    height: 76px;
+  }
+  .make-comment {
+    width: 76px;
+    height: 76px;
+  }
+  .cart {
+    width: 76px;
+    height: 76px;
+  }
+  .camcorder {
+    width: 76px;
+    height: 76px;
+  }
+  .clock {
+    width: 76px;
+    height: 76px;
+  }
+}
+
+@media only screen and (min-device-width: 500px) and (orientation:landscape) {     /*this is the one to comment out incase of gbese*/
+  .rating-card table{
+    margin-top: -25%;
+  }
+}
+
+   
